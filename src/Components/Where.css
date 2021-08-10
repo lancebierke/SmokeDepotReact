@@ -1,0 +1,38 @@
+.map-wrapper {
+  display: flex;
+  height: 100%;
+  width: 40%;
+  padding: 2px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.map-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+#contact {
+  width: 40%;
+  height: 100%;
+  /* align-items: right;
+  justify-content: right; */
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  height: 100%;
+  margin: 0 0 0 20px;
+  padding: 50px 25px 25px 90px;
+  overflow: auto;
+}
+
+iframe {
+  margin-top: 50px;
+  display: flex;
+  justify-content: left;
+}

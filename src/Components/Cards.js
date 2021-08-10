@@ -2,6 +2,11 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 import bluePipe from "../Images/bluePipe.jfif";
+import blueChromePipe from "../Images/blueChromePipe.jfif";
+import blueShortyPipe from "../Images/blueShortyPipe.jfif";
+import blueWavePipe from "../Images/blueWavePipe.jfif";
+import burntPipe from "../Images/burntPipe.jfif";
+import clearBluePipe from "../Images/clearBluePipe.jfif";
 
 function Cards() {
   return (
@@ -11,7 +16,33 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={bluePipe}
+              src={blueChromePipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={blueShortyPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={blueWavePipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItem
+              src={burntPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={clearBluePipe}
               text="Explore our Items"
               label="About"
               path="/home"
@@ -21,32 +52,7 @@ function Cards() {
               text="Explore our Items"
               label="About"
               path="/home"
-            /><CardItem
-            src={bluePipe}
-            text="Explore our Items"
-            label="About"
-            path="/home"
-          />
-                </ul>
-            <ul className="cards__items">
-              <CardItem
-                src={bluePipe}
-                text="Explore our Items"
-                label="About"
-                path="/home"
-              />
-              <CardItem
-                src={bluePipe}
-                text="Explore our Items"
-                label="About"
-                path="/home"
-              />
-              <CardItem
-                src={bluePipe}
-                text="Explore our Items"
-                label="About"
-                path="/home"
-              />
+            />
           </ul>
         </div>
       </div>

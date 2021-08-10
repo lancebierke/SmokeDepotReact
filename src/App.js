@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Components/NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import Footer from "./Components/Footer";
 import Home from "./Components/Pages/Home";
 import Contact from "./Components/Pages/Contact";
 import Where from "./Components/Pages/Where";
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/sign-up" component={SignUp} />
         </Switch>
+        <Footer />
       </Router>
     </React.Fragment>
   );
