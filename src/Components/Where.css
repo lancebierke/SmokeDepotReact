@@ -12,8 +12,13 @@
   justify-content: center;
   align-items: center;
   height: 60vh;
+  min-width: 300px;
 }
-#contact {
+.contact_form {
+  align-items: flex-start;
+}
+
+.contact {
   width: 40%;
   height: 100%;
   /* align-items: right;
@@ -29,10 +34,15 @@
   margin: 0 0 0 20px;
   padding: 50px 25px 25px 90px;
   overflow: auto;
+  width: 100%;
 }
 
 iframe {
   margin-top: 50px;
   display: flex;
   justify-content: left;
+}
+
+.whereContainer {
+  margin-bottom: 50px;
 }

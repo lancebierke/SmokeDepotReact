@@ -22,22 +22,6 @@ function Cards() {
               path="/home"
             />
             <CardItem
-              src={blueChromePipe}
-              text="Explore our Items"
-              label="About"
-              path="/home"
-            /><CardItem
-            src={blueChromePipe}
-            text="Explore our Items"
-            label="About"
-            path="/home"
-          /><CardItem
-          src={blueChromePipe}
-          text="Explore our Items"
-          label="About"
-          path="/home"
-        />
-            <CardItem
               src={blueShortyPipe}
               text="Explore our Items"
               label="About"
@@ -49,8 +33,8 @@ function Cards() {
               label="About"
               path="/home"
             />
-          {/* </ul> */}
-          {/* <ul className="cards__items"> */}
+            {/* </ul> */}
+            {/* <ul className="cards__items"> */}
             <CardItem
               src={burntPipe}
               text="Explore our Items"

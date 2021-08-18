@@ -16,6 +16,8 @@ function Footer() {
         </p>
         <div className="input-areas">
           <form>
+            <input className="footer-input" name="firstName" type="firstName" placeholder="First Name" />
+            <input className="footer-input" name="lastName" type="lastName" placeholder="Last Name" />
             <input
               className="footer-input"
               name="email"
