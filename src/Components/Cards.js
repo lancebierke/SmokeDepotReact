@@ -7,6 +7,20 @@ import blueShortyPipe from "../Images/blueShortyPipe.jfif";
 import blueWavePipe from "../Images/blueWavePipe.jfif";
 import burntPipe from "../Images/burntPipe.jfif";
 import clearBluePipe from "../Images/clearBluePipe.jfif";
+import blackAndGoldPipe from "../Images/blackAndGoldPipe.jfif";
+import brownAndWhitePipe from "../Images/brownAndWhitePipe.jfif";
+import clearSkeletonPipe from "../Images/clearSkeletonPipe.jfif";
+import clearShortyPipe from "../Images/clearShortyPipe.jfif";
+import clearPipe from "../Images/clearPipe.jfif";
+import helixPipe from "../Images/helixPipe.jfif";
+import blackDiamondPipe from "../Images/blackDiamondPipe.jfif";
+import honeycombPipe from "../Images/honeycombPipe.jfif";
+import mushroomPipe from "../Images/mushroomPipe.jfif";
+import orangeFirePipe from "../Images/orangeFirePipe.jfif";
+import orangeSkullPipe from "../Images/orangeSkullPipe.jfif";
+import simpsonsPipe from "../Images/simpsonsPipe.jfif";
+import subflowerShortyPipe from "../Images/subflowerShortyPipe.jfif";
+
 
 function Cards() {
   return (
@@ -49,6 +63,84 @@ function Cards() {
             />
             <CardItem
               src={bluePipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={brownAndWhitePipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={blackAndGoldPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={clearSkeletonPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={clearShortyPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={clearPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={blackDiamondPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={helixPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={honeycombPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={mushroomPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={orangeFirePipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={orangeSkullPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={simpsonsPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={subflowerShortyPipe}
               text="Explore our Items"
               label="About"
               path="/home"
