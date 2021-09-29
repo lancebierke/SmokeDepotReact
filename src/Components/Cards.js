@@ -20,7 +20,17 @@ import orangeFirePipe from "../Images/orangeFirePipe.jfif";
 import orangeSkullPipe from "../Images/orangeSkullPipe.jfif";
 import simpsonsPipe from "../Images/simpsonsPipe.jfif";
 import subflowerShortyPipe from "../Images/subflowerShortyPipe.jfif";
-
+import image1 from "../Images/image1.jpg";
+import image3 from "../Images/image3.jpg";
+import image6 from "../Images/image6.jpg";
+import image9 from "../Images/image9.jpg";
+import image11 from "../Images/image11.jpg";
+import image13 from "../Images/image13.jpg";
+import image15 from "../Images/image15.jpg";
+import image17 from "../Images/image17.jpg";
+import image20 from "../Images/image20.jpg";
+import image23 from "../Images/image23.jpg";
+import image26 from "../Images/image26.jpg";
 
 function Cards() {
   return (
@@ -141,6 +151,72 @@ function Cards() {
             />
             <CardItem
               src={subflowerShortyPipe}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image1}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image3}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image6}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image9}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image11}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image13}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image15}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image17}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image20}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image23}
+              text="Explore our Items"
+              label="About"
+              path="/home"
+            />
+            <CardItem
+              src={image26}
               text="Explore our Items"
               label="About"
               path="/home"
