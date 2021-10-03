@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import LOGO from "../Images/logo_trn-bg.png";
+import LOGO from "../Images/logo_v1.png";
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -30,7 +30,12 @@ function NavBar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img img src={LOGO} style={{height: "75px", width: "125px"}} alt="logo"></img>
+            <img
+              img
+              src={LOGO}
+              style={{ height: "75px", width: "auto" }}
+              alt="logo"
+            ></img>
             {/* Smoke Depot <i className="fab fa-typo3"></i> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>

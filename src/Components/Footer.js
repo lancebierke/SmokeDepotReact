@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import LOGO from "../Images/logo_trn-crop.png";
+import LOGO from "../Images/logo_v1.png";
 
 function Footer() {
   return (
@@ -11,13 +11,23 @@ function Footer() {
         <p className="footer-subscription-heading">
           Sign Up and Never Miss A Deal
         </p>
-        <p className="footer-subscription-text">
+        <h6 className="footer-subscription-text">
           You can unsubscribe at any time.
-        </p>
+        </h6>
         <div className="input-areas">
           <form>
-            <input className="footer-input" name="firstName" type="firstName" placeholder="First Name" />
-            <input className="footer-input" name="lastName" type="lastName" placeholder="Last Name" />
+            <input
+              className="footer-input"
+              name="firstName"
+              type="firstName"
+              placeholder="First Name"
+            />
+            <input
+              className="footer-input"
+              name="lastName"
+              type="lastName"
+              placeholder="Last Name"
+            />
             <input
               className="footer-input"
               name="email"
@@ -31,15 +41,17 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>About Us</h2>
+            {/* <h2>About Us</h2>
             {/* <Link to='/sign-up'>How it works</Link> */}
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
+            {/* <Link to="/">Testimonials</Link>
+            <Link to="/">Careers</Link> */}
             {/* <Link to='/'>Terms of Service</Link> */}
-          </div>
+          </div>{" "}
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/contact">
+              <a href="#contact">Contact</a>
+            </Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
@@ -55,12 +67,12 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              Smoke Depot
-              <i class="fab fa-typo3" />
+              {/* Smoke Depot */}
+              {/* <i class="fab fa-typo3" /> */}
               <img
                 img
                 src={LOGO}
-                style={{ height: "200px", width: "auto" }}
+                style={{ height: "75px", width: "auto" }}
                 alt="logo"
               ></img>
             </Link>

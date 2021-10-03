@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../App.css";
 // import { useForm } from 'react-hook-form';
 // import saveData from './saveData';
@@ -66,87 +66,96 @@ export default function Contact() {
   const [message, setMessage] = React.useState("");
   const handleSubmit = () => console.log("submit");
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <React.Fragment>
       <div className="whereContainer">
-        <h1 className="where">Contact Us</h1>
+        <h1 className="where" id="contact">
+          Contact Us
+        </h1>
         <div className="map-container contact_form">
-        <section className="contact">
-        <div className="d-flex map-container ">
-          <div className="card">
-            <form className="form">
-              <label>
-                Name:
-                </label>
-                <input style={{margin: "10px 0"}}
-                  type="text"
-                  value={firstName}
-                  placeholder="First Name"
-                  onChange={(e) => setFirstName(e.target.value)}
-                />
-                <input style={{margin: "10px 0"}}
-                  type="text"
-                  value={lastName}
-                  placeholder="Last Name"
-                  onChange={(e) => setLastName(e.target.value)}
-                />
-              <label>
-                Email:
-                </label>
-                <input style={{margin: "10px 0"}}
-                  type="email"
-                  placeholder="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-              <label>
-                Message:
-                </label>
-                <textarea style={{margin: "10px 0"}}
-                className="contact_textarea"
-                  type="text"
-                  placeholder="Your message here."
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                />
-              <input style={{margin: "10px 0"}} type="submit" value="Submit" onClick={handleSubmit} />
-            </form>
-          </div>
-          </div>
-        </section>
-        <section className="contact">
-          <div className="card">
-            <h3>Address</h3>
-            <p>
-              5431 S. Rainbow Blvd. C-2 <br />
-              Las Vegas, Nevada 89118
-            </p>
-            <br />
+          <section className="contact">
+            <div className="d-flex map-container ">
+              <div className="card">
+                <form className="form">
+                  <label>Name:</label>
+                  <input
+                    style={{ margin: "10px 0" }}
+                    type="text"
+                    value={firstName}
+                    placeholder="First Name"
+                    onChange={(e) => setFirstName(e.target.value)}
+                  />
+                  <input
+                    style={{ margin: "10px 0" }}
+                    type="text"
+                    value={lastName}
+                    placeholder="Last Name"
+                    onChange={(e) => setLastName(e.target.value)}
+                  />
+                  <label>Email:</label>
+                  <input
+                    style={{ margin: "10px 0" }}
+                    type="email"
+                    placeholder="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                  />
+                  <label>Message:</label>
+                  <textarea
+                    style={{ margin: "10px 0" }}
+                    className="contact_textarea"
+                    type="text"
+                    placeholder="Your message here."
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                  />
+                  <input
+                    style={{ margin: "10px 0" }}
+                    type="submit"
+                    value="Submit"
+                    onClick={handleSubmit}
+                  />
+                </form>
+              </div>
+            </div>
+          </section>
+          <section className="contact">
+            <div className="card">
+              <h3>Address</h3>
+              <p>
+                5431 S. Rainbow Blvd. C-2 <br />
+                Las Vegas, Nevada 89118
+              </p>
+              <br />
 
-            <h3>Contact Us</h3>
-            <p>(702) 333-4870</p>
-            <br />
+              <h3>Contact Us</h3>
+              <p>(702) 333-4870</p>
+              <br />
 
-            <h3>Hours of Operation</h3>
-            <p>
-              Monday: 10AM to 10PM
-              <br />
-              Tuesday: 10AM to 10PM
-              <br />
-              Wednesday: 10AM to 10PM
-              <br />
-              Thursday: 10AM to 10PM
-              <br />
-              Friday: 10AM to 10PM
-              <br />
-              Saturday: 10AM to 10PM
-              <br />
-              Sunday: 10AM to 8PM
-              <br />
-            </p>
-          </div>
-        </section>
-          </div>
+              <h3>Hours of Operation</h3>
+              <p>
+                Monday: 10AM to 10PM
+                <br />
+                Tuesday: 10AM to 10PM
+                <br />
+                Wednesday: 10AM to 10PM
+                <br />
+                Thursday: 10AM to 10PM
+                <br />
+                Friday: 10AM to 10PM
+                <br />
+                Saturday: 10AM to 10PM
+                <br />
+                Sunday: 10AM to 8PM
+                <br />
+              </p>
+            </div>
+          </section>
+        </div>
       </div>
     </React.Fragment>
   );

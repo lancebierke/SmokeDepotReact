@@ -36,24 +36,25 @@ function Cards() {
   return (
     <div className="cards">
       <h1>Available Inventory</h1>
+      <p>* more colors available</p>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem
+            {/* <CardItem
               src={blueChromePipe}
               text="Explore our Items"
               label="About"
               path="/home"
-            />
+            /> */}
             <CardItem
               src={blueShortyPipe}
-              text="Explore our Items"
+              text="$50.00*"
               label="About"
               path="/home"
             />
             <CardItem
               src={blueWavePipe}
-              text="Explore our Items"
+              text="$60.00"
               label="About"
               path="/home"
             />
@@ -61,67 +62,67 @@ function Cards() {
             {/* <ul className="cards__items"> */}
             <CardItem
               src={burntPipe}
-              text="Explore our Items"
+              text="$58.00*"
               label="About"
               path="/home"
             />
             <CardItem
               src={clearBluePipe}
-              text="Explore our Items"
+              text="$105.00"
               label="About"
               path="/home"
             />
             <CardItem
               src={bluePipe}
-              text="Explore our Items"
+              text="$70.00*"
               label="About"
               path="/home"
             />
             <CardItem
               src={brownAndWhitePipe}
-              text="Explore our Items"
+              text="$65.00*"
               label="About"
               path="/home"
             />
             <CardItem
               src={blackAndGoldPipe}
-              text="Explore our Items"
+              text="$120.00*"
               label="About"
               path="/home"
             />
             <CardItem
               src={clearSkeletonPipe}
-              text="Explore our Items"
+              text="$60.00"
               label="About"
               path="/home"
             />
             <CardItem
               src={clearShortyPipe}
-              text="Explore our Items"
+              text="$70.00"
               label="About"
               path="/home"
             />
             <CardItem
               src={clearPipe}
-              text="Explore our Items"
+              text="$120.00*"
               label="About"
               path="/home"
             />
             <CardItem
               src={blackDiamondPipe}
-              text="Explore our Items"
+              text="$60.00*"
               label="About"
               path="/home"
             />
             <CardItem
               src={helixPipe}
-              text="Explore our Items"
+              text="$85.00"
               label="About"
               path="/home"
             />
             <CardItem
               src={honeycombPipe}
-              text="Explore our Items"
+              text="$70.00"
               label="About"
               path="/home"
             />
@@ -133,25 +134,25 @@ function Cards() {
             />
             <CardItem
               src={orangeFirePipe}
-              text="Explore our Items"
+              text="$60.00"
               label="About"
               path="/home"
             />
             <CardItem
               src={orangeSkullPipe}
-              text="Explore our Items"
+              text="$120.00"
               label="About"
               path="/home"
             />
             <CardItem
               src={simpsonsPipe}
-              text="Explore our Items"
+              text="$100.00*"
               label="About"
               path="/home"
             />
             <CardItem
               src={subflowerShortyPipe}
-              text="Explore our Items"
+              text="$30.00"
               label="About"
               path="/home"
             />
