@@ -1,37 +1,37 @@
 export const MenuItems = [
   {
     title: "Large Water Pipes",
-    path: "/largewaterpipes",
+    id: "largewaterpipes",
     cname: "dropdown-link",
   },
   {
     title: "Small Water Pipes",
-    path: "/smallwaterpipes",
+    id: "smallwaterpipes",
     cname: "dropdown-link",
   },
   {
     title: "Hookahs",
-    path: "/hookahs",
+    id: "hookahs",
     cname: "dropdown-link",
   },
   {
     title: "All Other Pipes",
-    path: "/otherpipes",
+    id: "otherpipes",
     cname: "dropdown-link",
   },
   {
     title: "Rechargable Vapes",
-    path: "/rechargablevapes",
+    id: "rechargablevapes",
     cname: "dropdown-link",
   },
   {
     title: "Disposable Vapes",
-    path: "/disposablevapes",
+    id: "disposablevapes",
     cname: "dropdown-link",
   },
   {
     title: "CBD Products",
-    path: "/cbd",
+    id: "cbd",
     cname: "dropdown-link",
   },
 ];

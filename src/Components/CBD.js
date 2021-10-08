@@ -5,7 +5,7 @@ import image1 from "../Images/image1.jpg";
 
 function CBD() {
   return (
-    <div className="cards merch">
+    <div className="cards merch" id="cbd">
       <h1>CBD Products</h1>
       <div className="cards__container">
         <div className="cards__wrapper">

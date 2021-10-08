@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding-top: 5rem;
   background: #fff;
   width: 100%;
   text-align-last: center;
@@ -144,6 +144,7 @@ h1 {
   border-top: 1px black solid;
   width: 90vw;
   height: 1px;
+  left: 5vw;
   position: absolute;
   top: -4rem;
 }

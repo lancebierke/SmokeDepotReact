@@ -5,7 +5,7 @@ import blueShortyPipe from "../Images/blueShortyPipe.jfif";
 
 function OtherPipes() {
   return (
-    <div className="cards merch">
+    <div className="cards merch" id="otherpipes">
       <h1>All Other Pipes</h1>
       <div className="cards__container">
         <div className="cards__wrapper">

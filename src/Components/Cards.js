@@ -34,7 +34,7 @@ import image26 from "../Images/image26.jpg";
 
 function Cards() {
   return (
-    <div className="cards">
+    <div className="cards" id="largewaterpipes">
       <h1>Large Water Pipes</h1>
       <h6>* more colors available</h6>
       <div className="cards__container">
@@ -222,7 +222,6 @@ function Cards() {
             />
           </ul>
         </div>
-        
       </div>
     </div>
   );

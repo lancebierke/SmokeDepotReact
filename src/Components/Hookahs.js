@@ -5,7 +5,7 @@ import blueShortyPipe from "../Images/blueShortyPipe.jfif";
 
 function Hookahs() {
   return (
-    <div className="cards merch">
+    <div className="cards merch" id="hookahs">
       <h1>Hookahs</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
@@ -17,9 +17,9 @@ function Hookahs() {
               path="/hookahs"
             />
           </ul>
+          <h6>**plus tax on all purchases</h6>
         </div>
       </div>
-      <h6>**plus tax on all purchases</h6>
     </div>
   );
 }
