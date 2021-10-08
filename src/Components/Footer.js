@@ -41,25 +41,20 @@ function Footer() {
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            {/* <h2>About Us</h2>
-            {/* <Link to='/sign-up'>How it works</Link> */}
-            {/* <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link> */}
-            {/* <Link to='/'>Terms of Service</Link> */}
-          </div>{" "}
-          <div class="footer-link-items">
             <h2>Contact Us</h2>
             <Link to="/contact">
               <a href="#contact">Contact</a>
+            </Link>
+            <Link>
+              <a href="/">Staff</a>
             </Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
+            <Link to="https://www.instagram.com/smokedepotlv/">Instagram</Link>
+            <Link to="https://www.facebook.com/smokedepotlv">Facebook</Link>
           </div>
         </div>
       </div>
@@ -95,14 +90,14 @@ function Footer() {
             >
               <i class="fab fa-instagram" />
             </Link>
-            <Link
+            {/* <Link
               class="social-icon-link youtube"
               to="/"
               target="_blank"
               aria-label="Youtube"
-            >
-              <i class="fab fa-youtube" />
-            </Link>
+            > */}
+            {/* <i class="fab fa-youtube" /> */}
+            {/* </Link> */}
           </div>
         </div>
       </section>

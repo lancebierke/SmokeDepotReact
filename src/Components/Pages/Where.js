@@ -1,13 +1,14 @@
 import React from "react";
 import "../../App.css";
 import "../../Components/Where.css";
-// import Footer from "../Footer";
 
 export default function Where() {
   return (
     <React.Fragment>
       <div className="whereContainer">
-        <h1 className="where">WHERE?</h1>
+        <h1 className="where" style={{ margin: 40 }}>
+          WHERE?
+        </h1>
         <div className="d-flex map-container">
           <div className="map-wrapper">
             <iframe
@@ -20,7 +21,7 @@ export default function Where() {
               title="map"
             ></iframe>
           </div>
-          <section id="contact">
+          <section className="contact">
             <div className="card">
               <h3>Address</h3>
               <p>
@@ -56,4 +57,4 @@ export default function Where() {
       </div>
     </React.Fragment>
   );
-} 
+}

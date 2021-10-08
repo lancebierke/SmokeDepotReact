@@ -8,8 +8,6 @@ function HeroSection() {
   return (
     <div className="hero-container">
       {/* <video src="../public/smokedepotPImgs/video-1" autoPlay loop muted /> */}
-      {/* <img src=".."  alt="water" /> */}
-      {/* <h1>Smoke Depot</h1> */}
       <div style={{ position: "relative", width: "90vw", height: "40vh" }}>
         <div
           style={{

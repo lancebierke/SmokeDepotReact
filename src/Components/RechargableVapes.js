@@ -3,10 +3,10 @@ import CardItem from "./CardItem";
 import "./Cards.css";
 import blueShortyPipe from "../Images/blueShortyPipe.jfif";
 
-function Deals() {
+function RechargableVapes() {
   return (
     <div className="cards merch">
-      <h1>Merchandise</h1>
+      <h1>Rechargable Vapes</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -14,13 +14,14 @@ function Deals() {
               src={blueShortyPipe}
               text="$50.00*"
               label="About"
-              path="/home"
+              path="/rechargablevapes"
             />
           </ul>
         </div>
       </div>
+      <h6>**plus tax on all purchases</h6>
     </div>
   );
 }
 
-export default Deals;
+export default RechargableVapes;

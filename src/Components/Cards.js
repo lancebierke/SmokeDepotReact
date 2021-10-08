@@ -35,8 +35,8 @@ import image26 from "../Images/image26.jpg";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Available Inventory</h1>
-      <p>* more colors available</p>
+      <h1>Large Water Pipes</h1>
+      <h6>* more colors available</h6>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
@@ -50,57 +50,55 @@ function Cards() {
               src={blueShortyPipe}
               text="$50.00*"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
               src={blueWavePipe}
               text="$60.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
-            {/* </ul> */}
-            {/* <ul className="cards__items"> */}
             <CardItem
               src={burntPipe}
               text="$58.00*"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
               src={clearBluePipe}
               text="$105.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
               src={bluePipe}
               text="$70.00*"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
               src={brownAndWhitePipe}
               text="$65.00*"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
               src={blackAndGoldPipe}
               text="$120.00*"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
               src={clearSkeletonPipe}
               text="$60.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
               src={clearShortyPipe}
               text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
               src={clearPipe}
@@ -224,6 +222,7 @@ function Cards() {
             />
           </ul>
         </div>
+        
       </div>
     </div>
   );

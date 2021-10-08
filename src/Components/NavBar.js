@@ -3,10 +3,12 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 import LOGO from "../Images/logo_v1.png";
+import Dropdown from "./Dropdown.js";
 
 function NavBar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -25,6 +27,22 @@ function NavBar() {
 
   window.addEventListener("resize", showButton);
 
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
+
   return (
     <React.Fragment>
       <nav className="navbar">
@@ -36,7 +54,6 @@ function NavBar() {
               style={{ height: "75px", width: "auto" }}
               alt="logo"
             ></img>
-            {/* Smoke Depot <i className="fab fa-typo3"></i> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -47,6 +64,22 @@ function NavBar() {
                 Home
               </Link>
             </li>
+
+            <li
+              className="nav-item"
+              onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
+            >
+              <Link
+                to="/menuitems"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Menu <i className="fas fa-caret-down" />
+              </Link>
+              {dropdown && <Dropdown />}
+            </li>
+
             <li className="nav-item">
               <Link to="/where" className="nav-links" onClick={closeMobileMenu}>
                 Where?
@@ -59,15 +92,6 @@ function NavBar() {
                 onClick={closeMobileMenu}
               >
                 Contact
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
               </Link>
             </li>
           </ul>
