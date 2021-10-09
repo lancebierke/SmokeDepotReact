@@ -17,7 +17,6 @@ function Dropdown(props) {
     }
     const element = document.getElementById(id);
     element.scrollIntoView({ behavior: "smooth", block: "start" });
-    console.log(currentLocation);
   };
 
   return (

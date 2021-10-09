@@ -11,13 +11,11 @@ import OtherPipes from "../OtherPipes";
 import { withRouter } from "react-router-dom";
 
 function Home(props) {
-  console.log(props.history.location);
   const elementToScrollTo = props.history.location.state
     ? props.history.location.state.detail
     : null;
   useEffect(() => {
     if (elementToScrollTo) {
-      console.log("Hello", elementToScrollTo);
       const element = document.getElementById(elementToScrollTo);
       element.scrollIntoView({ behavior: "smooth", block: "start" });
     }

@@ -1,36 +1,25 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
-import bluePipe from "../Images/bluePipe.jfif";
-import blueChromePipe from "../Images/blueChromePipe.jfif";
-import blueShortyPipe from "../Images/blueShortyPipe.jfif";
-import blueWavePipe from "../Images/blueWavePipe.jfif";
-import burntPipe from "../Images/burntPipe.jfif";
-import clearBluePipe from "../Images/clearBluePipe.jfif";
-import blackAndGoldPipe from "../Images/blackAndGoldPipe.jfif";
-import brownAndWhitePipe from "../Images/brownAndWhitePipe.jfif";
-import clearSkeletonPipe from "../Images/clearSkeletonPipe.jfif";
-import clearShortyPipe from "../Images/clearShortyPipe.jfif";
-import clearPipe from "../Images/clearPipe.jfif";
-import helixPipe from "../Images/helixPipe.jfif";
-import blackDiamondPipe from "../Images/blackDiamondPipe.jfif";
-import honeycombPipe from "../Images/honeycombPipe.jfif";
-import mushroomPipe from "../Images/mushroomPipe.jfif";
-import orangeFirePipe from "../Images/orangeFirePipe.jfif";
-import orangeSkullPipe from "../Images/orangeSkullPipe.jfif";
-import simpsonsPipe from "../Images/simpsonsPipe.jfif";
-import subflowerShortyPipe from "../Images/subflowerShortyPipe.jfif";
-import image1 from "../Images/image1.jpg";
-import image3 from "../Images/image3.jpg";
-import image6 from "../Images/image6.jpg";
-import image9 from "../Images/image9.jpg";
-import image11 from "../Images/image11.jpg";
-import image13 from "../Images/image13.jpg";
-import image15 from "../Images/image15.jpg";
-import image17 from "../Images/image17.jpg";
-import image20 from "../Images/image20.jpg";
-import image23 from "../Images/image23.jpg";
-import image26 from "../Images/image26.jpg";
+import largepipe1 from "../Images/largepipe1.jfif";
+import largepipe2 from "../Images/largepipe2.jfif";
+import largepipe3 from "../Images/largepipe3.jpg";
+import largepipe4 from "../Images/largepipe4.jfif";
+import largepipe5 from "../Images/largepipe5.jpg";
+import largepipe6 from "../Images/largepipe6.jfif";
+import largepipe7 from "../Images/largepipe7.jpg";
+import largepipe8 from "../Images/largepipe8.jpg";
+import largepipe9 from "../Images/largepipe9.jpg";
+import largepipe10 from "../Images/largepipe10.jpg";
+import largepipe11 from "../Images/largepipe11.jfif";
+import largepipe12 from "../Images/largepipe12.jpg";
+import largepipe13 from "../Images/largepipe13.jpg";
+import largepipe14 from "../Images/largepipe14.jpg";
+import largepipe15 from "../Images/largepipe15.jpg";
+import largepipe16 from "../Images/largepipe16.jfif";
+import largepipe17 from "../Images/largepipe17.jpg";
+import largepipe18 from "../Images/largepipe18.jpg";
+import largepipe19 from "../Images/largepipe19.jfif";
 
 function Cards() {
   return (
@@ -40,185 +29,119 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            {/* <CardItem
-              src={blueChromePipe}
+            <CardItem
+              src={largepipe1}
               text="Explore our Items"
               label="About"
               path="/home"
-            /> */}
+            />
             <CardItem
-              src={blueShortyPipe}
+              src={largepipe2}
               text="$50.00*"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={blueWavePipe}
+              src={largepipe3}
               text="$60.00"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={burntPipe}
+              src={largepipe4}
               text="$58.00*"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={clearBluePipe}
+              src={largepipe5}
               text="$105.00"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={bluePipe}
+              src={largepipe6}
               text="$70.00*"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={brownAndWhitePipe}
+              src={largepipe7}
               text="$65.00*"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={blackAndGoldPipe}
+              src={largepipe8}
               text="$120.00*"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={clearSkeletonPipe}
+              src={largepipe9}
               text="$60.00"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={clearShortyPipe}
+              src={largepipe10}
               text="$70.00"
               label="About"
               path="/largewaterpipes"
             />
             <CardItem
-              src={clearPipe}
-              text="$120.00*"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={blackDiamondPipe}
-              text="$60.00*"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={helixPipe}
-              text="$85.00"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={honeycombPipe}
+              src={largepipe11}
               text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
-              src={mushroomPipe}
-              text="Explore our Items"
+              src={largepipe12}
+              text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
-              src={orangeFirePipe}
-              text="$60.00"
+              src={largepipe13}
+              text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
-              src={orangeSkullPipe}
-              text="$120.00"
+              src={largepipe14}
+              text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
-              src={simpsonsPipe}
-              text="$100.00*"
+              src={largepipe15}
+              text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
-              src={subflowerShortyPipe}
-              text="$30.00"
+              src={largepipe16}
+              text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
-              src={image1}
-              text="Explore our Items"
+              src={largepipe17}
+              text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
-              src={image3}
-              text="Explore our Items"
+              src={largepipe18}
+              text="$70.00"
               label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
             <CardItem
-              src={image6}
-              text="Explore our Items"
+              src={largepipe19}
+              text="$70.00"
               label="About"
-              path="/home"
-            />
-            <CardItem
-              src={image9}
-              text="Explore our Items"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={image11}
-              text="Explore our Items"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={image13}
-              text="Explore our Items"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={image15}
-              text="Explore our Items"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={image17}
-              text="Explore our Items"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={image20}
-              text="Explore our Items"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={image23}
-              text="Explore our Items"
-              label="About"
-              path="/home"
-            />
-            <CardItem
-              src={image26}
-              text="Explore our Items"
-              label="About"
-              path="/home"
+              path="/largewaterpipes"
             />
           </ul>
         </div>
