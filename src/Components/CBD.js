@@ -20,17 +20,83 @@ function CBD() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem src={CBD1} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD2} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD3} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD4} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD5} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD6} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD7} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD8} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD9} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD10} text="$50.00*" label="About" path="/cbd" />
-            <CardItem src={CBD11} text="$50.00*" label="About" path="/cbd" />
+            <CardItem
+              src={CBD1}
+              text="$45.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD2}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD3}
+              text="$38.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD4}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD5}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD6}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD7}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD8}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD9}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD10}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
+            <CardItem
+              src={CBD11}
+              text="$30.00"
+              label="CBD
+            "
+              path="/cbd"
+            />
           </ul>
         </div>
       </div>

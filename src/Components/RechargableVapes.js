@@ -1,7 +1,9 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
-import blueShortyPipe from "../Images/blueShortyPipe.jfif";
+import flumpods from "../Images/flumpods.jpg";
+import image29 from "../Images/image29.jpg";
+import puffpods from "../Images/puffpods.jpg";
 
 function RechargableVapes() {
   return (
@@ -11,9 +13,21 @@ function RechargableVapes() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={blueShortyPipe}
+              src={flumpods}
               text="$50.00*"
-              label="About"
+              label="rechargableVapes"
+              path="/rechargablevapes"
+            />
+            <CardItem
+              src={image29}
+              text="Various*"
+              label="recharableVapes"
+              path="/rechargablevapes"
+            />
+            <CardItem
+              src={puffpods}
+              text="Various*"
+              label="recharabpuffpodsleVapes"
               path="/rechargablevapes"
             />
           </ul>

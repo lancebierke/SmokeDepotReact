@@ -48,6 +48,9 @@ function Footer() {
             <Link>
               <a href="/">Staff</a>
             </Link>
+            <Link to="/termsandconditions">
+              <a href="termsandconditions">Terms and Conditions</a>
+            </Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
@@ -72,7 +75,7 @@ function Footer() {
               ></img>
             </Link>
           </div>
-          <small class="website-rights">Smoke Depot © 2021</small>
+          <small class="website-rights">Smoke Depot Smoke Shop © 2021</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"

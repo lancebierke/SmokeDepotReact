@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../App.css";
-import "../../Components/Where.css";
+import "../../Components/Where.css"; 
 
 export default function Where() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
-import blueShortyPipe from "../Images/blueShortyPipe.jfif";
+import puffpods from "../Images/puffpods.jpg";
 
 function DisposableVapes() {
   return (
@@ -11,7 +11,19 @@ function DisposableVapes() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={blueShortyPipe}
+              src={puffpods}
+              text="$50.00*"
+              label="About"
+              path="/disposablevapes"
+            />
+            <CardItem
+              src={puffpods}
+              text="$50.00*"
+              label="About"
+              path="/disposablevapes"
+            />
+            <CardItem
+              src={puffpods}
               text="$50.00*"
               label="About"
               path="/disposablevapes"

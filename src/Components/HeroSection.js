@@ -46,7 +46,7 @@ function HeroSection() {
           ></img>
         </div>
       </div>
-      <p style={{ marginTop: "200px" }}>Smoke Something Betch!</p>
+      <p style={{ marginTop: "200px" }}>Smoke Something!</p>
       <div className="hero-btns">
         <Button
           className="btns"
@@ -60,7 +60,7 @@ function HeroSection() {
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          *Pending Usage*
+          Deal of the Day!
         </Button>
       </div>
     </div>

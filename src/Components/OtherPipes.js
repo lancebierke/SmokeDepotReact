@@ -1,7 +1,12 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
-import blueShortyPipe from "../Images/blueShortyPipe.jfif";
+import smallpipes1 from "../Images/smallpipes1.jpg";
+import smallpipes2 from "../Images/smallpipes2.jpg";
+import smallpipes3 from "../Images/smallpipes3.jpg";
+import smallpipes4 from "../Images/smallpipes4.jpg";
+import supremedabpieces from "../Images/supremedabpieces.jpg";
+import yellowdabpieces from "../Images/yellowdabpieces.jpg";
 
 function OtherPipes() {
   return (
@@ -11,9 +16,39 @@ function OtherPipes() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src={blueShortyPipe}
+              src={smallpipes1}
               text="$50.00*"
-              label="About"
+              label="Small Pipes"
+              path="/otherpipes"
+            />
+            <CardItem
+              src={smallpipes2}
+              text="$50.00*"
+              label="Small Pipes"
+              path="/otherpipes"
+            />
+            <CardItem
+              src={smallpipes3}
+              text="$50.00*"
+              label="Small Pipes"
+              path="/otherpipes"
+            />
+            <CardItem
+              src={smallpipes4}
+              text="$50.00*"
+              label="Small Pipes"
+              path="/otherpipes"
+            />
+            <CardItem
+              src={supremedabpieces}
+              text="$50.00*"
+              label="Small Pipes"
+              path="/otherpipes"
+            />
+            <CardItem
+              src={yellowdabpieces}
+              text="$50.00*"
+              label="Small Pipes"
               path="/otherpipes"
             />
           </ul>

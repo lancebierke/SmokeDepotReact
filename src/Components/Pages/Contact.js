@@ -100,7 +100,7 @@ export default function Contact() {
                   <input
                     style={{ margin: "10px 0" }}
                     type="email"
-                    placeholder="email"
+                    placeholder="Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
@@ -138,17 +138,17 @@ export default function Contact() {
 
               <h3>Hours of Operation</h3>
               <p>
-                Monday: 10AM to 10PM
+                Monday: 10AM to 8PM
                 <br />
-                Tuesday: 10AM to 10PM
+                Tuesday: 10AM to 8PM
                 <br />
-                Wednesday: 10AM to 10PM
+                Wednesday: 10AM to 8PM
                 <br />
-                Thursday: 10AM to 10PM
+                Thursday: 10AM to 8PM
                 <br />
-                Friday: 10AM to 10PM
+                Friday: 10AM to 8PM
                 <br />
-                Saturday: 10AM to 10PM
+                Saturday: 10AM to 8PM
                 <br />
                 Sunday: 10AM to 8PM
                 <br />

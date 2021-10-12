@@ -8,6 +8,7 @@ import Menu from "./Components/Pages/Menu";
 import Contact from "./Components/Pages/Contact";
 import Where from "./Components/Pages/Where";
 import SignUp from "./Components/Pages/SignUp";
+import termsAndConditions from "./Components/terms-conditions";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/where" component={Where} />
           <Route path="/contact" component={Contact} />
           <Route path="/sign-up" component={SignUp} />
+          <Route path="/termsandconditions" component={termsAndConditions} />
         </Switch>
         <Footer />
       </Router>
