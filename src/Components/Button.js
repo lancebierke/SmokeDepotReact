@@ -19,6 +19,8 @@ export const Button = ({
 
   const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
 
+  //need to set up store for subscriber information
+
   return (
     <Link to="/sign-up" className="btn-mobile">
       <button
