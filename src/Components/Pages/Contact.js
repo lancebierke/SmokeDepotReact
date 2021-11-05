@@ -81,6 +81,7 @@ export default function Contact() {
             <div className="d-flex map-container ">
               <div className="card">
                 <form className="form">
+                  <h5>Messages currently under construction</h5>
                   <label>Name:</label>
                   <input
                     style={{ margin: "10px 0" }}

@@ -12,19 +12,19 @@ function DisposableVapes() {
           <ul className="cards__items">
             <CardItem
               src={puffpods}
-              text="$50.00*"
+              text="Various*"
               label="About"
               path="/disposablevapes"
             />
             <CardItem
               src={puffpods}
-              text="$50.00*"
+              text="Various*"
               label="About"
               path="/disposablevapes"
             />
             <CardItem
               src={puffpods}
-              text="$50.00*"
+              text="Various*"
               label="About"
               path="/disposablevapes"
             />
